@@ -1,0 +1,73 @@
+body {
+    font-family: helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+span {
+    color: #fff;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    /*    position: relative;*/
+    list-style-type: none;
+    background: #000;
+    height: 20px;
+}
+
+ul li a {
+    display: inline-block;
+    color: #fff;
+    /*padding: 4px 10px;*/
+
+}
+
+.todotab {
+    display: inline-block;
+    /*float: left;*/
+    width: calc(90% - 16px); /* room for favicon */
+    /*    position: absolute;*/
+/* 29 max length */
+}
+
+.close {
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+    /*float: left;*/
+    width: 5%;
+    line-height: 16px;
+    vertical-align: text-bottom;
+    /*    position: absolute;*/
+}
+.checkbox {
+    display: inline-block;
+    /*    float: left;*/
+    width: 5%;
+    line-height: 16px;
+    vertical-align: text-bottom;
+    /*    position: absolute;*/
+}
+.button[value='Delete'] {
+    width: 100%;
+}
+
+.favicon {
+    /*background: url("https://www.google.dk/images/google_favicon_128.png");
+    background-size: 16px 16px;*/
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
